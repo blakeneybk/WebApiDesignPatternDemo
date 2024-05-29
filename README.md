@@ -25,6 +25,7 @@ At the heart of the application is the .NET Dependency Injection (DI) system. Ha
 ### Rate Limiting
 
 The SEC Edgar API imposes rate limits, which we've addressed by implementing a rate limiter using a Semaphore and a Timer. This ensures that we adhere to the API's rate limits and prevent excessive requests.
+
 ----------------------------------------------------------------------------------------------
 This was a project in response to a candidacy take home test with the following requirements:
 # Fora Coding Challenge
