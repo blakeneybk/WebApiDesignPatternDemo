@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fora.Data\Fora.Data.csproj" />
+    <ProjectReference Include="..\Fora.ImportService\Fora.ImportService.csproj" />
+    <ProjectReference Include="..\Fora.Service.CompanyService\Fora.Service.CompanyService.csproj" />
+    <ProjectReference Include="..\Fora.Service.Funding\Fora.Service.Funding.csproj" />
+  </ItemGroup>
+
+</Project>
