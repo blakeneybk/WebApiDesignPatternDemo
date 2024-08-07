@@ -27,11 +27,6 @@ At the heart of the application is the .NET Dependency Injection (DI) system. Ha
 The SEC Edgar API imposes rate limits, which we've addressed by implementing a rate limiter using a Semaphore and a Timer. This ensures that we adhere to the API's rate limits and prevent excessive requests.
 
 ----------------------------------------------------------------------------------------------
-This was a project in response to a candidacy take home test with the following requirements:
-# Coding Challenge
-
-## Overview
- is a FinTech company that offers loans to small businesses. We've created a take-home "coding challenge" to both see how you creatively solve problems as well as act as a conversation point during a potential future interview phase. Feel free to solve the problem as you see fit so long as you use C# and .NET. Also, we want to be as respectful of your time as we can be, so please don't spend more than 3-4 hours on this. Please submit your code to our recruiter in a .zip file. Thank you!
 
 ## Step 1: Using the SEC’s EDGAR API
 Import and persist data for the CIKs (Central Index Key) listed at the bottom of this document.
